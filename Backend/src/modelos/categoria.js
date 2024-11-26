@@ -5,4 +5,4 @@ const CategoriaSchema= new mongoose.Schema({
     fechaCreacion:{type:Date,default:Date.now}
 })
 
-module.exports=mongoose.model('Categoria', CategoriaSchema);
+module.exports=mongoose.model('categoria', CategoriaSchema);
